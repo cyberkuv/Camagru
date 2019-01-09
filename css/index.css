@@ -1,0 +1,170 @@
+html, body {
+    /* background: url(../image/blooming-spring-wallpapers-60968-3247780.jpg) center center fixed; */
+    background: url(../image/centralpark.jpg) center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+body {
+    color: white;
+}
+
+#name {
+    background: linear-gradient(transparent, gray) 100% 50%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 5vmin;
+    border: solid white;
+    height: 60vmin;
+    width: 80%;
+}
+
+.name {
+    margin-top: 8vmin;
+    width: 80%;
+    height: 50%;
+    transition: transform .2s;
+}
+
+.name:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+.camera {
+    transition: transform .2s;
+    height: 20vmin;
+    width: 22vmin;
+}
+
+.camera:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+.choose {
+    top: 95%;
+    left: 10%;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    height: 6vmin;
+    background-color: gray;
+    border: solid white;
+    border-radius: 5vmin;
+}
+
+.btns {
+    color: white;
+    font-size: 1.2vmin;
+    background-color: gray;
+    border-radius: 5vmin;
+    border: solid red;
+    height: 50%;
+    width: 10%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=email], input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: solid white;
+    background: gray;
+}
+
+input[type=email]:focus, input[type=text]:focus, input[type=password]:focus {
+    background-color: white;
+    outline: none;
+}
+
+
+button {
+    background-color: gray;
+    border: solid white;
+    border-radius: 5vmin;
+    color: white;
+    padding: 14px 20px;
+    margin: 12px 0;
+    cursor: pointer;
+    width: 20%;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 20%;
+}
+
+.container {
+    padding: 16px;
+}
+
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: gray;
+    padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: gray;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: solid white;
+    border-radius: 5vmin;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid white;
+    margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: wheat;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}

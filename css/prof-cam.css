@@ -1,0 +1,194 @@
+html, body {
+    background: url(../image/centralpark.jpg) center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    margin: 0;
+    color: white;
+}
+
+#session { 
+    float: left;
+    background-color: gray;
+    width: 18vmin;
+    height: 5vmin;
+    font-size: 2vmin;
+}
+
+#nav {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    height: 5vmin;
+    width: 100%;
+    background-color: gray;
+    border-bottom: solid white;
+}
+
+#nav-content {
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    background-color: gray;
+    border: solid white;
+    width: 15vmin;
+    height: 5vmin;
+    font-size: 2vmin;
+}
+
+#nav-content2 {
+    position: relative;
+    text-align: center;
+    background-color: gray;
+    border: solid white;
+    width: 15vmin;
+    height: 5vmin;
+    font-size: 2vmin;
+}
+
+#nav-content1 {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    width: 15vmin;
+    font-size: 3vmin;
+}
+
+#bt-nav {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: gray;
+    border-top: solid white;
+}
+
+
+
+/*///////////////////*/
+
+#btns {
+    margin: auto;
+    text-align: center;
+}
+
+#bt2 {
+    position: absolute;
+    top: 12vmin;
+    width: 15%;
+    height: 36vmin;
+    border: solid white;
+    background-color: gray;
+    border-radius: 1vmin;
+}
+
+#prev {
+    border: solid white;
+    border-radius: 1vmin;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    height: 60vmin;
+    overflow: auto;
+    background: linear-gradient(transparent, gray)100% 50%;
+}
+
+/*//////////////////*/
+
+#cam-bx {
+    margin: auto;
+    width: 80%;
+    /* border: solid white; */
+}
+
+.camera {
+    width: 80%;
+    margin: auto;
+}
+
+form {
+    padding: 25px;
+}
+
+#video {
+    position : absolute;
+    border: 5px solid #bab2b5;
+    border-radius: 10px;
+}
+
+#canvas {
+    border: 5px solid #bab2b5;
+    border-radius: 10px;
+    z-index: 1;
+    position: absolute;
+}
+
+#canvas2 {
+    border: 5px solid #bab2b5;
+    border-radius: 10px;
+    position: relative;
+}
+
+#snap {
+    padding-left: 300px;
+    display: block;
+    border: 0;
+    width: 80px;
+    height: 50px;
+}
+
+ .btn {
+     display: block;
+     font-size: 100%;
+     width: 80px;
+     margin-left: 300px;
+     margin-top: 10px;
+     /* background-color: #eee2dc; */
+     color: #123c69;
+ }
+
+#upload {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 700px;
+    margin: 0 auto;
+}
+.label {
+    font-weight: bold;
+    font-size: 100%;
+    color: #123c69;
+    font-family: 'Courier New', Courier, monospace;
+}
+.btn2 {
+    font-size: 100%;
+    width: 80px;
+}
+
+.filter {
+    width: 40%;
+    height: 50vmin;
+    border-radius: 1vmin;
+    border: solid white;
+    margin: auto;
+    overflow: auto;
+    background-color: gray;
+}
+
+.stickers{
+    width: 50%;
+}
+
+.filter button {
+    border: none;
+    background: none;
+}
+
+button {
+    background-color: gray;
+    color: white;
+    font-size: 100%;
+}

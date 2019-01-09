@@ -1,0 +1,329 @@
+html, body {
+    background: url(../image/centralpark.jpg) center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+body {
+    color: white;
+    text-align: center;
+}
+
+#screenshot {
+    text-align: center;
+    height: 80vmin;
+    width: 80%;
+    margin: auto;
+}
+
+#screenshot button {
+    font-size: 1.5vmin;
+}
+
+video {
+    border: dotted wheat;
+    margin-top: 2vmin;
+    width: 100%;
+    z-index: 1;
+}
+
+* {
+    margin: 0;
+}
+
+#session { 
+    float: left;
+    background-color: gray;
+    width: 18vmin;
+    height: 5vmin;
+    font-size: 2vmin;
+}
+
+#nav {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    height: 5vmin;
+    width: 100%;
+    background-color: gray;
+    border-bottom: solid white;
+}
+
+#nav-content {
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    border: solid white;
+    width: 15vmin;
+    height: 5vmin;
+    font-size: 2vmin;
+}
+
+#nav-content2 {
+    position: relative;
+    text-align: center;
+    background-color: gray;
+    border: solid white;
+    width: 15vmin;
+    height: 5vmin;
+    font-size: 2vmin;
+}
+
+#nav-content1 {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    width: 15vmin;
+    font-size: 3vmin;
+}
+
+#bt-nav {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: gray;
+    border-top: solid white;
+}
+
+#booth {
+    margin: auto;
+    width: 60%;
+}
+
+#bt1 {
+    float: left;
+    width: 80%;
+    height: 80vmin;
+}
+
+#bt2 {
+    height: 80vmin;
+    float: left;
+    width: 20%;
+}
+
+#video {
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+}
+
+#img {
+    width: 100%;
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+}
+
+#upld-img {
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+}
+
+#screenshot {
+    margin: auto;
+    width: 80%;
+}
+
+#screenshot button {
+    margin: auto;
+    width: 20%;
+}
+
+#btns {
+    position: relative;
+    top: 20%;
+    margin: auto;
+    width: 80%;
+    height: 50%;
+}
+
+button {
+    background-color: blue;
+    border: solid wheat;
+    border-radius: 5vmin;
+    color: wheat;
+}
+
+input {
+    background-color: blue;
+    border: solid wheat;
+    border-radius: 5vmin;
+    color: white;
+}
+
+#images-bg-bx {
+    background: linear-gradient(transparent, gray)100% 50%;
+    color: white;
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    height: 100vmin;
+    overflow: auto;
+    border: solid white;
+    border-radius: 1vmin;
+}
+
+#prev {
+    overflow: auto;
+    width: 100%;
+    background: linear-gradient(transparent, purple)100% 50%;
+}
+
+#img2 {
+    width: 100%;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+#container button {
+    height: 6%;
+    width: 20%;
+    border: solid wheat;
+    background-color: purple;
+    border-radius: 5vmin;
+    position: fixed;
+    top: 47%;
+    left: 40%;
+    cursor: pointer;
+}
+
+#container input {
+    border: solid purple;
+    color: black;
+    background-color: wheat;
+    height: 5%;
+    width: 50%;
+    position: fixed;
+    top: 40%;
+    left: 25%;
+}
+
+footer a {
+    float: right;
+}
+
+#chkbx {
+    margin: auto;
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#abs-form {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    height: 60vmin;
+    width: 60%;
+}
+
+#form {
+    width: 100%;
+    height: 30vmin;
+    border-radius: 1vmin;
+    border: solid white;
+    background: linear-gradient(gray, transparent)100% 50%;
+}
+
+#form input{
+    color: black;
+    background-color: white;
+    width: 80%;
+    height: 4vmin;
+}
+
+#form input[type=submit]{
+    color: black;
+    background-color: white;
+    width: 20%;
+    height: 3vmin;
+}
+
+#form2 {
+    width: 100%;
+    height: 30vmin;
+    border: solid white;
+    border-radius: 1vmin;
+    background: linear-gradient(gray, transparent)100% 50%;
+}
+
+#form2 input{
+    color: black;
+    background-color: white;
+    width: 80%;
+    height: 4vmin;
+}
+
+#form2 input[type=submit]{
+    color: black;
+    background-color: white;
+    width: 20%;
+    height: 3vmin;
+}
+
+#form label {
+    font-size: 4vmin;
+}
+
+#form h1{
+    font-size: 6vmin;
+}
+
+#form2 h1 {
+    font-size: 6vmin;
+}
+
+#form2 label {
+    font-size: 4vmin;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#stk {
+    width: 15%;
+    height: 50vmin;
+    position: absolute;
+    top: 22%;
+    left: 2.5%;
+    border: solid wheat;
+}
+
+#sticker {
+    overflow: auto;
+    height: 50vmin;
+    width: 100%;
+    background-color: purple;
+}
+
+#sticker img {
+    height: 10vmin;
+    width: 80%;
+}
+
+#sticker button {
+    background-color: purple;
+    border-radius: 0vmin;
+    border: none;
+    color: wheat;
+}
+
+#stickers {
+    position: absolute;
+    top: 6%;
+    right: 36%;
+    /* background-color: rgba(221, 221, 221, 0.3); */
+    width: 39%;
+  }

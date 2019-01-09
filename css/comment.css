@@ -1,0 +1,71 @@
+html, body {
+    background: url(../image/centralpark.jpg) center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    color: white;
+    text-align: center;
+}
+
+button {
+    background-color:gray;
+    border: solid white;
+    color: white;
+}
+
+input {
+    background-color: gray;
+    border: solid white;
+    color: white;
+}
+
+#nav {
+    position: relative;
+    display: inline-block;
+    height: 6vmin;
+    width: 100%;
+    background-color: gray;
+    border-bottom: solid white;
+}
+
+#nav-content {
+    position: relative;
+    background-color: gray;
+    border-radius: 5vmin;
+    border: solid white;
+    width: 15vmin;
+    height: 5vmin;
+    font-size: 2vmin;
+}
+
+#nav-content1 {
+    float: left;
+    margin-top: 0.5vmin;
+    position: relative;
+    width: 15vmin;
+    font-size: 3vmin;
+}
+
+#tt {
+    width: 40%;
+    height: 5vmin;
+    font-size: 3vmin;
+}
+
+#ttt {
+    width: 10%;
+    height: 5vmin;
+}
+
+.images {
+    border: solid white;
+    width: 50%;
+}
