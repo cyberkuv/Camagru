@@ -1,8 +1,8 @@
 <?php
     $host = "localhost";
     $user = "root";
-    $pass = "emmanuel";
-    $db = "Camagru";
+    $pass = 'Pa$$w0rdRoot';
+    $db = "camagru";
     try{
        $connect = new PDO("mysql:host=$host", $user, $pass);
        $connect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -49,7 +49,7 @@
         )";
         $connect->exec($img_table);
         echo "table image successfully created";
-        header('refresh:3; url="index.php"');
+        header('refresh:3; url="./index.php"');
     }
     catch(PDOException $e){
         echo "error creating table".$e->getMessage();
