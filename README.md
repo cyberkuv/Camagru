@@ -9,11 +9,10 @@ An image sharing site much like Instagram
 * Navigate to https://github.com/cyberkuv/camagru, click on clone or download 
 ### How to setup and configure
 * Download MAMP from bitnami website
-* Copy the camagru directory into the folder MAMP/apache2/htdocs
+* Copy the camagru directory into the folder MAMP/htdocs
 * Open the manager-osx, Go to manage servers tabs and make sure mysql database and apache web sever is running
 ### How to run the program
-* Run the index.php file in the camagru file 
-* navigate to http://localhost: (the port)/camagru
+* Click on the folder named Camafru to get started. 
 ## Code brakedown
 * Backend technologies
   * PHP
