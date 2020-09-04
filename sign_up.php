@@ -42,7 +42,7 @@
             ':username' => $username,
             ':password' => $password,
         ));
-        $link = "http://localhost:8080/eonwe/verify.php?user=".$username."&code=".$code;
+        $link = "http://localhost:8888/Camagru/verify.php?user=".$username."&code=".$code;
         $subject = "Thank You For Registering To Our Website!";
         $txt = "Your Verification Link is !".$link;
         mail($email,$subject,$txt);
